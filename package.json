@@ -1,6 +1,6 @@
 {
   "name": "ks-library-design-system",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -51,5 +51,8 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }
