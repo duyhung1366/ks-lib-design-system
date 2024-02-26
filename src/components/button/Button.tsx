@@ -1,6 +1,6 @@
 import React, { ButtonHTMLAttributes, PropsWithoutRef } from "react";
 import { ButtonProps } from "./Button.types";
-import "./Button.css"
+import "./Button.scss"
 
 const Button: React.FC<PropsWithoutRef<ButtonHTMLAttributes<HTMLButtonElement> & ButtonProps>> = (props) => {
     const { title, buttonType, className, disableAnimation = false, textDecoration = "none", color, backgroundColor, style, ...buttonProps } = props;

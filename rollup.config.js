@@ -5,8 +5,7 @@ import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
 import terser from "@rollup/plugin-terser";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
-// add the CSS plugin support
-import postcss from "rollup-plugin-postcss";
+import styles from "rollup-plugin-styles";
 
 const packageJson = require("./package.json");
 
@@ -25,22 +24,22 @@ export default [
         sourcemap: true,
       },
     ],
+    external: ["react", "react-dom"],
     plugins: [
       peerDepsExternal(),
       resolve(),
+      styles({
+        mode: 'inject'
+      }),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
-      terser(),
-      // add CSS support
-      postcss(), 
-    ],
-    external: ["react", "react-dom"],
+      terser()
+    ]
   },
   {
     input: "src/index.ts",
-    output: [{ file: "dist/index.d.ts", format: "es" }],
+    output: [{ file: packageJson.types, format: "es" }],
     plugins: [dts.default()],
-    // add CSS support
-    external: [/\.css$/],
+    external: [/\.(sass|scss|css)$/],
   },
 ];
