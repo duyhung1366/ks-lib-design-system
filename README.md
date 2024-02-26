@@ -30,7 +30,7 @@ The KoolSoft Design System is licensed under the [MIT License](LICENSE).
 KoolSoft is a leading software company dedicated to delivering innovative solutions that empower businesses to succeed in today's digital world. Our design system reflects our commitment to excellence, creativity, and user-centric design.
 
 ## Contact
-- **Website**: [https://koolsoftelearning.com/]
+- **Website**: https://koolsoftelearning.com/
 - **Email**: contact@kool-soft.com
 - **Phone**: 0985545955
 - **Address**: Tầng 3, Lô NT KĐT mới Phùng Khoang, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội

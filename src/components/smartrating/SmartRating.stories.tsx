@@ -4,7 +4,7 @@ import SmartRating from "./SmartRating";
 import { SmartRatingProps } from "./SmartRating.types";
 
 export default {
-    title: "ReactComponentLibrary/Rating",
+    title: "KS-lib/Rating",
     component: SmartRating,
 } as Meta<SmartRatingProps>;
 
