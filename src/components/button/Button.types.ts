@@ -5,7 +5,4 @@ export interface ButtonProps {
     buttonType?: "primary" | "secondary" | "CTA",
     className?: string,
     disableAnimation?: boolean,
-    textDecoration?: React.CSSProperties["textDecoration"], 
-    color?: string, 
-    backgroundColor?: string
 }

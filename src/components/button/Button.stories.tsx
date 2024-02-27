@@ -46,7 +46,6 @@ ButtonCTA.args = {
 export const ButtonLink = Template.bind({});
 ButtonLink.args = {
     title: "Button link",
-    textDecoration: "underline",
     style: { 
         textDecoration: "underline", 
         color: 'var(--ks-primary-color-main, #5856D6)'
