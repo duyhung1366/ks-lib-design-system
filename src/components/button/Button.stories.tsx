@@ -47,7 +47,10 @@ export const ButtonLink = Template.bind({});
 ButtonLink.args = {
     title: "Button link",
     textDecoration: "underline",
-    color: "var(--ks-primary-color-main, #5856D6)",
+    style: { 
+        textDecoration: "underline", 
+        color: 'var(--ks-primary-color-main, #5856D6)'
+    },
     onClick: () => { 
         alert("hello")
     }
