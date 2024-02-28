@@ -9,6 +9,7 @@ type ButtonProps = PropsWithoutRef<ButtonHTMLAttributes<HTMLButtonElement> & But
 export default {
     title: "KS-lib/Button",
     component: Button,
+    tags: ['autodocs'],
 } as Meta<ButtonProps>;
 
 const Template: StoryFn<ButtonProps> = (args) => <Button {...args} />;
