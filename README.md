@@ -36,3 +36,16 @@ KoolSoft is a leading software company dedicated to delivering innovative soluti
 - **Address**: Tầng 3, Lô NT KĐT mới Phùng Khoang, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội
 
 Thank you for choosing the KoolSoft Design System. We're excited to see what you create!
+
+## command for Dev: 
+1. **build the library using the Rollup script command:**
+`npm run rollup`
+
+2. **To test the stories, run the following command:**
+`npm run storybook`
+
+3. **To build the stories, run the following command:**
+`npm run build-storybook`
+
+4. **run the test with this command:**
+`npm run test`
