@@ -1,4 +1,3 @@
-// smartRating.stories.tsx
 import { StoryFn, Meta } from "@storybook/react";
 import Button from "./Button";
 import { ButtonProps as ButtonType } from "./Button.types";
