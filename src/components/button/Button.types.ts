@@ -1,8 +1,9 @@
-import { ReactNode } from "react"
+import { ButtonHTMLAttributes, PropsWithChildren, ReactNode } from "react"
 
-export interface ButtonProps { 
-    title: ReactNode,
-    buttonType?: "primary" | "secondary" | "CTA",
+export type ButtonProps = PropsWithChildren<ButtonHTMLAttributes<HTMLButtonElement> & { 
+    variant?: "solid" | "outline" | "round" | "link",
     className?: string,
     disableAnimation?: boolean,
-}
+    size?: "small" | "medium" | "large",
+    disabled?: boolean
+}>
