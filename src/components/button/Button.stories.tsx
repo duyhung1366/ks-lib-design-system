@@ -12,6 +12,6 @@ const Template: StoryFn<ButtonProps> = (args) => <Button {...args} />;
 
 export const ButtonBase = Template.bind({});
 ButtonBase.args = {
-    children: "hello",
-    disabled: true
+    children: "xin chao",
+    disabled: false
 };
