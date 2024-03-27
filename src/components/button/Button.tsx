@@ -13,7 +13,7 @@ const _Button = styled("button")({
     fontWeight: 600,
     cursor: 'pointer',
 
-    "&.variant-solid, &.variant-round, &.variant-icon": {
+    "&.variant-solid, &.variant-round, &.variant-icon, &.variant-fab": {
         backgroundColor: primaryColor, 
         color: whiteColor,
 
@@ -81,6 +81,20 @@ const _Button = styled("button")({
         "&:hover": { 
             backgroundColor: "rgba(0, 0, 0, 0.08)"
         }
+    },
+    "&.variant-fab": { 
+        fontSize: "16px !important",
+        "&.size-small": {
+            borderRadius: 17.5
+        },
+        "&.size-medium": {
+            padding: "11px 16px",
+            borderRadius: 20.5
+        },
+        "&.size-large": {
+            padding: "16px",
+            borderRadius: 25.5
+        },
     },
     "&.size-small": { 
         fontSize: 14, 
