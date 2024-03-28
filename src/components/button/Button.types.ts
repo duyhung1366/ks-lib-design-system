@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, PropsWithChildren, ReactNode } from "react"
+import { ButtonHTMLAttributes, PropsWithChildren } from "react"
 
 export type ButtonProps = PropsWithChildren<ButtonHTMLAttributes<HTMLButtonElement> & { 
     variant?: "solid" | "outline" | "round" | "link" | "icon" | "ghost" | "fab",
